@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 class CreateUserController {
   async store(req, res) {
     const { name, email, password } = req.body;
